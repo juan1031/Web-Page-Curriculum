@@ -269,49 +269,49 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .Python{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s Python forwards;
 }
-@keyframes javascript {
+@keyframes Python {
     0%{width: 0%;}
     100%{width: 75%;}
 }
 
-.skills .skill .htmlcss{
+.skills .skill .R{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 5s R forwards;
 }
-@keyframes htmlcss {
+@keyframes R {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 5%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .SQL{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 3s SQL forwards;
 }
-@keyframes photoshop {
+@keyframes SQL {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 0%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .Datamining{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 3s Datamining forwards;
 }
-@keyframes wordpress {
+@keyframes Datamining {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 30%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .Datavisualitation{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 3s Datavisualitation forwards;
 }
-@keyframes drupal {
+@keyframes Datavisualitation {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 45%;}
 }
 
 .skills .skill .comunicacion{
@@ -320,7 +320,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .trabajo{
@@ -329,7 +329,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .creatividad{
@@ -338,16 +338,16 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .dedicacion{
+.skills .skill .ofimatica{
     width: 0%;
-    animation: 2s dedicacion forwards;
+    animation: 2s ofimatica forwards;
 }
-@keyframes dedicacion {
+@keyframes ofimatica {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 40%;}
 }
 
 .skills .skill .proyect{
