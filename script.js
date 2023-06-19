@@ -40,3 +40,14 @@ function efectoHabilidades() {
 window.onscroll = function () {
   efectoHabilidades();
 };
+
+function initMap() {
+  // Crea un objeto LatLng para establecer la ubicación inicial del mapa
+  var myLatLng = { lat: 37.7749, lng: -122.4194 };
+
+  // Crea un objeto de mapa
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 10, // Nivel de zoom inicial
+    center: myLatLng, // Ubicación inicial del mapa
+  });
+}
